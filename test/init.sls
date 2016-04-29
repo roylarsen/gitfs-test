@@ -2,4 +2,4 @@
 
 /root/test:
   file.managed:
-    - salt://test/test
+    - source: salt://test/files/test
