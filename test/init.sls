@@ -1,6 +1,6 @@
 {% from "test/map.jinja" import test with context %}
 
 /root/test:
-  file.append:
+  file.managed:
     - text:
       - "Blah Blah Blah"
