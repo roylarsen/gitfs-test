@@ -2,5 +2,4 @@
 
 /root/test:
   file.managed:
-    - text:
-      - "Blah Blah Blah"
+    - salt://test/test
